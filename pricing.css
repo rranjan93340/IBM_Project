@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.hero-section {
+    background-image: url('./img/pricingHero.png');
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+}
+
+.hero-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-section a:hover {
+    text-decoration: underline;
+}
+
+.pricing-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+.pricing-card .card-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pricing-card .card-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #00ADB5;
+}
+
+.pricing-card ul {
+    margin-bottom: 20px;
+}
+
+.pricing-card li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pricing-card .btn {
+    background-color: #00ADB5;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.pricing-card .btn:hover {
+    background-color: #00ADB5;
+}
+/* Footer CSS */
+footer {
+    background: #222831;
+    padding: 80px 80px 0px 100px;
+    margin-top: 80px;
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+    box-shadow: none;
+    flex: 1;
+    color: #EEEEEE;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    padding-left: 0px ;
+
+}
+
+footer ul li a {
+    color: #00ADB5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer ul li {
+    color: #222831;
+    padding: 0px;
+
+}
+.footer h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #EEEEEE;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .footer .row>div {
+        margin-bottom: 20px;
+    }
+}
